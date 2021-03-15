@@ -14,7 +14,7 @@
 8. For **Role name*** enter **lambda_ses_execution**.
 9. Choose **Create role**.
 
-# Create a Lambda function to processes Amazon SES and Amazon SNS notifications
+# Create a Lambda function to process Amazon SES and Amazon SNS notifications
 
 [Create a Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html) using the following sample code, and then name it **sesnotificationscode**. When creating the function, make sure that you assign to it the **lambda_ses_execution** role you created.
 
